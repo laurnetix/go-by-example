@@ -1,11 +1,11 @@
 package main
 
 import (
-	"01-hello_world/hello"
-	"02-values/values"
+	"gobyexample/hello"
+	"gobyexample/values"
 )
 
 func main() {
-	hello.Hello_world()
+	hello.Hello()
 	values.Values()
 }
