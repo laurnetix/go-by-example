@@ -25,4 +25,7 @@ func Constants() {
 	fmt.Println(int64(d))
 
 	fmt.Println(math.Sin(n))
+
+	const num int = 52
+	fmt.Println(num)
 }

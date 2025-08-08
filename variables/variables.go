@@ -25,4 +25,10 @@ func Variables() {
 	// := declares and initializes the variable at once
 	f := "apple"
 	fmt.Println(f)
+
+	num := 52
+	fmt.Println(num)
+
+	var num2 = 53
+	fmt.Println(num2)
 }
