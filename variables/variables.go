@@ -1,12 +1,18 @@
 package variables
 
+/** Go By Example
+ *  Exercise 3 - Variables
+ */
+
 import "fmt"
 
 func Variables() {
 
+	// Declare variable with var
 	var a = "initial"
 	fmt.Println(a)
 
+	// Declare multiple variables at a time
 	var b, c int = 1, 2
 	fmt.Println(b, c)
 
@@ -16,6 +22,7 @@ func Variables() {
 	var e int
 	fmt.Println(e)
 
+	// := declares and initializes the variable at once
 	f := "apple"
 	fmt.Println(f)
 }

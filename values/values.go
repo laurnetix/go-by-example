@@ -1,5 +1,9 @@
 package values
 
+/** Go By Example
+ *  Exercise 2 - Values
+ */
+
 import "fmt"
 
 func Values() {
